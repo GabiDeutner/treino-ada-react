@@ -1,5 +1,5 @@
 import MeuComponente from './components/MeuComponente';
-
+import MeuContador from './components/MeuContador'; 
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
     <MeuBotao conteudo='me clique' />
     <MeuBotao conteudo='depois aqui' />
     <MeuBotao conteudo='e por fim aqui' />
+    <MeuContador/>
 
     </div>
   );
@@ -24,3 +25,5 @@ function MeuBotao(props){
 
 
 export default App;
+
+// props e componentes
